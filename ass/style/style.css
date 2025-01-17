@@ -63,7 +63,7 @@ header {
 .invite_only {
     min-height: 600px;
     min-width: 100%;
-    background-color: wheat;
+    background-color: rgb(237, 237, 237);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,5 +79,26 @@ header {
     min-height: 500px;
     min-width: 700px;
     background-color: rgb(92, 178, 232);
+
+}
+
+/*community*/
+.community-container {
+    min-height: 600px;
+    min-width: 100%;
+    background-color: rgb(162, 161, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*fandom*/
+.fandom {
+    min-height: 600px;
+    min-width: 100%;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
