@@ -2,10 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-style: dashed;
+
 
 }
 
-.debug {
-    border-style: dashed;
+root {
 
+    --header-light: #00ffff;
+    --header-dark: #ffa500;
+
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    min-width: 2000px;
+    /*i tried using var but failed*/
+    background-color: cyan;
+    padding: 3rem;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+
+    div {
+        padding: 1rem;
+        min-height: 40px;
+        background-color: orange;
+        flex-grow: 1;
+        text-align: center;
+
+
+
+    }
 }
