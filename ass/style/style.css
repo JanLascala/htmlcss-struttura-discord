@@ -41,3 +41,19 @@ header {
 
     }
 }
+
+.jumbotron-container {
+    min-height: 500px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        min-height: 400px;
+        min-width: 900px;
+        background-color: rgb(197, 29, 133);
+
+    }
+}
