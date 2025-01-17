@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border-style: dashed;
+    border-style: dotted;
 
 
 }
@@ -100,5 +100,23 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+/*technology*/
+
+.technology_container {
+    min-height: 1000px;
+    width: 100%;
+    background-color: rgb(162, 161, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        min-height: 900px;
+        min-width: 1200px;
+        background-color: green;
+    }
 
 }
