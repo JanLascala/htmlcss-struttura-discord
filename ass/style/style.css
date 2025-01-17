@@ -18,6 +18,7 @@ body {
     height: 100%;
 }
 
+/*header*/
 header {
     min-width: 2000px;
     /*i tried using var but failed*/
@@ -42,6 +43,7 @@ header {
     }
 }
 
+/*jumbotron*/
 .jumbotron-container {
     min-height: 500px;
     width: 100%;
@@ -56,4 +58,26 @@ header {
         background-color: rgb(197, 29, 133);
 
     }
+}
+
+.invite_only {
+    min-height: 600px;
+    min-width: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_container {
+    min-height: 500px;
+    min-width: 500px;
+    background-color: pink;
+}
+
+.img_container {
+    min-height: 500px;
+    min-width: 700px;
+    background-color: rgb(92, 178, 232);
+
 }
